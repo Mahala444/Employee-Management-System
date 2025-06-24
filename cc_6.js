@@ -41,3 +41,10 @@ const emp2 = new Employee("Brandon", "Marketing");
 const emp3 = new Employee("Catherine", "Sales");
 const mgr1 = new Manager("Rain", "Engineering", 5);
 const mgr2 = new Manager("Daniella", "Sales", 3);
+
+const myCompany = new Company();
+myCompany.addEmployee(emp1);
+myCompany.addEmployee(emp2);
+myCompany.addEmployee(emp3);
+myCompany.addEmployee(mgr1);
+myCompany.addEmployee(mgr2);
