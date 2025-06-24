@@ -48,3 +48,5 @@ myCompany.addEmployee(emp2);
 myCompany.addEmployee(emp3);
 myCompany.addEmployee(mgr1);
 myCompany.addEmployee(mgr2);
+
+myCompany.listEmployees();
